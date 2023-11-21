@@ -32,6 +32,7 @@ function ConsumerForm(props)
       
       <div className="full-page">
       <Navv/>
+        <br/>
         <div className="form-container">
           <input
             defaultValue={props.NameValue}
@@ -39,42 +40,49 @@ function ConsumerForm(props)
             className="form-control"
             placeholder="Enter your Name"
           />
+                <br/>
           <input
             defaultValue={props.IDValue}
             onChange={(event) => setID(event.target.value)}
             className="form-control"
             placeholder="Enter your ID"
           />
+                <br/>
           <input
             defaultValue={props.PhoneNoValue}
             onChange={(event) => setPhoneNo(event.target.value)}
             className="form-control"
             placeholder="Enter your PhoneNo."
           />
+                <br/>
           <input
             defaultValue={props.EmailIDValue}
             onChange={(event) => setEmailID(event.target.value)}
             className="form-control"
             placeholder="Enter your Email-ID"
           />
+                <br/>
           <input
             defaultValue={props.PetNameValue}
             onChange={(event) => setPetName(event.target.value)}
             className="form-control"
             placeholder="Enter your Pet-Name"
           />
+                <br/>
           <input
             defaultValue={props.BreedValue}
             onChange={(event) => setBreed(event.target.value)}
             className="form-control"
             placeholder="Enter your Pet-Breed"
           />
+                <br/>
           <input
             defaultValue={props.ServicesValue}
             onChange={(event) => setServices(event.target.value)}
             className="form-control"
             placeholder="Which Services you want?"
           />
+                <br/>
           <button onClick={handleClick} className="btn btn-success" type="submit">
             {props.children} Submit 
           </button>
