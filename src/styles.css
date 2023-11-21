@@ -5,17 +5,16 @@
 }
 .fc{
   background-color: rgba(0, 0, 0, 1);
-  max-height:00px;
+  max-height:100px;
 
 }
-/* Styles for the form container */
 .form-container {
-  position: center;
-  max-width: 10%;
+  max-width: 80%;
   margin: 20px auto;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
+  text-align: center; /* Center the form */
 }
 
 /* Styles for form inputs */
@@ -26,6 +25,8 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  width: 60%; /* Make inputs broad */
+  box-sizing: border-box;
 }
 
 /* Styles for the submit button */
